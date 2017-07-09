@@ -4,22 +4,49 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    /*background-image: url('./bardSiteBackground.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-siz*/
-    
+  font-family: 'Economica', sans-serif;
+  color: whitesmoke;
 }
 .button{
-  display:block;
+  font-family: 'Economica', sans-serif;
+  font-size: 1.2rem;
   height: 75px;
   width: 75px;
   border-radius: 50%;
-  border: 1px solid blue;
   text-align: center;
-
+  background-color: transparent;
+}
+.button:hover{
+    background-color: cornflowerblue;
+}
+#github{
+border: 2px solid grey;
+color: whitesmoke;
+}
+#linkedIn{
+border: 2px solid cornflowerblue;
+color: whitesmoke;
+}
+#bio{
+border: 2px solid darkcyan;
+color: whitesmoke;
 }
 #links{
     align-content: 'left';
-    margin-top: 10rem;
+    margin-top: 6rem;
+}
+#heading{
+    text-align: left;
+    color: whitesmoke;
+}
+#bioContainer{
+    background-color: cornflowerblue;
+    width: 40%;
+    border: 2px solid whitesmoke;
+    position: absolute;
+    display:none;
+    margin-top: 4rem;
+    margin-left: 7rem;
+    color: whitesmoke;
+    text-align: left;
 }
