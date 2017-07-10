@@ -1,5 +1,6 @@
 showBio =(ev) =>{
     const bio = document.getElementById('bioContainer')
     bio.style.display = "block"
+    
     bio.textContent = "As a student at Purdue University, I have been involved in several clubs to develop my skills professionally. I am an elected officer of the Run CMD() team under the CERIAS research group at Purdue. We are a group devoted to getting a deeper, more technical, and practical education in cybersecurity. We have participated in the Collegiate Cyber Defense Competition for the first time in Purdue’s history.  I am a part of the Cyber Forensics Club at Purdue as well; this club aims to teach its members the basics of forensics when investigating cyber-crime. As an individual, I have participated and placed in the top 200 in the National Cyber League spring season which helped me develop my ethical hacking skills. I have participated in these extra-curricular while maintaining a spot on the Dean’s list at Purdue, and I look forward to developing my professional skills as my career grows. Contact me by email at bbard@purdue.edu "
 }
